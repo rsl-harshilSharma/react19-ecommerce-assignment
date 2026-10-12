@@ -26,15 +26,20 @@ Use the “Create your account” form below the collection. Required fields, em
 
 ## Screenshots
 
-Capture the following states from the running app for the assignment submission:
+The supplied screenshots are saved in [`screenshots/`](./screenshots):
 
-1. Product collection after it loads.
-2. Product skeleton loading state (refresh and capture during the initial load).
-3. Empty registration form.
-4. Validation messages (submit with missing or invalid values).
-5. Pending submission (submit valid values and capture during the request delay).
-6. Successful registration and the updated account card.
+| State | Screenshot |
+| --- | --- |
+| Product listing | [product-listing.png](./screenshots/product-listing.png) |
+| Product loading state | [loading-state.png](./screenshots/loading-state.png) |
+| Registration form | [registration-form.png](./screenshots/registration-form.png) |
+| Validation errors | [registration-validation.png](./screenshots/registration-validation.png) |
+| Successful registration and registered-user card | [registered-user.png](./screenshots/registered-user.png) |
+
+The pending submission state is implemented in the app; capture it while the simulated request is in progress if a separate pending-state screenshot is required.
 
 ## GitHub submission
 
-The project is initialized on the `main` branch. Once pushed to GitHub, add the repository URL and pull request link here.
+- Repository: [rsl-harshilSharma/react19-ecommerce-assignment](https://github.com/rsl-harshilSharma/react19-ecommerce-assignment)
+- Main branch: `main`
+- Task 1 screenshots branch: `feature/task-1-screenshots`
